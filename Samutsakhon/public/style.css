@@ -172,6 +172,47 @@ img {
   transform: scale(1.01);
 }
 
+@media screen and (max-width: 1024px) {
+  .textinimg {
+    font-size: 20px;
+  }
+  .textinimg2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textinimg {
+    font-size: 18px;
+    left: 15px;
+    bottom: 40px;
+  }
+  .textinimg2 {
+    font-size: 12px;
+    left: 15px;
+    bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .textinimg {
+    font-size: 14px;
+    left: 10px;
+    bottom: 35px;
+  }
+  .textinimg2 {
+    font-size: 8px;
+    left: 10px;
+    bottom: 10px;
+  }
+  header {
+    padding: 20px 10px 20px 10px;
+  }
+  header a {
+    font-size: 20px;
+  }
+}
+
 .tracking-in-contract {
   -webkit-animation: tracking-in-contract 0.8s
     cubic-bezier(0.215, 0.61, 0.355, 1) both;
